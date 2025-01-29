@@ -65,7 +65,8 @@ The required dependencies are listed in `requirements.txt`, which includes:
 - ✋ Add more intuitive hand gestures for better interaction.
 - 🎨 Improve the rendering performance of the Rubik's Cube.
 
-## 📜 License
-This project is licensed under the MIT License.
 
-## 🙌 Acknowl
+## 🙌 Acknowledgments
+- 🎯 [MediaPipe](https://mediapipe.dev/) for hand tracking.
+- 🖥️ [PyOpenGL](http://pyopengl.sourceforge.net/) for rendering support.
+
