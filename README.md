@@ -1,36 +1,68 @@
-# Rubik-sCubeHandGestureDetection
-This project demonstrates a Python-based solution for solving a 3D rendered Rubik's Cube using hand gestures captured by a webcam.  
+# 🖐️ Hand Gesture-Controlled Rubik's Cube 🎲
 
-**Key Features:**
+This project implements a hand gesture-controlled Rubik's Cube using MediaPipe for gesture detection and OpenGL for 3D visualization. The project consists of two Python scripts:
 
-* **Real-time hand gesture recognition:**
-* Utilizes MediaPipe for accurate and efficient hand tracking and gesture recognition.
-* **3D Rubik's Cube rendering:**
-* Employs OpenGL for visually representing the rotating cube in a 3D environment.
-  
-* **Intuitive gesture controls:** 
-    * **Right Hand:**
-        * 4 fingers closed: Rotate front face clockwise.
-        * 3 fingers closed: Rotate front face counterclockwise.
-        * Index finger closed: Rotate first row left.
-        * Index and middle finger closed: Rotate first row right.
-        * Middle finger closed: Rotate second row left.
-        * Middle and ring finger closed: Rotate second row right.
-        * Ring finger closed: Rotate third row left.
-        * Ring and pinky finger closed: Rotate third row right.
-    * **Left Hand:**
-        * 4 fingers closed: Rotate right face clockwise.
-        * 3 fingers closed: Rotate right face counterclockwise.
-        * Index finger closed: Rotate first column up.
-        * Index and middle finger closed: Rotate first column down.
-        * Middle finger closed: Rotate second column up.
-        * Middle and ring finger closed: Rotate second column down.
-        * Ring finger closed: Rotate third column up.
-        * Ring and pinky finger closed: Rotate third column down.
-* **User-friendly interface:** Provides basic camera controls for adjusting the viewing angle and distance.
+- **Gestures.py**: Handles hand gesture recognition using MediaPipe.
+- **Rubik'sCube.py**: Implements the Rubik's Cube logic and visualization using OpenGL.
 
-**Getting Started:**
+## ✨ Features
+- 🚀 Real-time hand gesture detection.
+- 🎮 Gesture-based interactions for manipulating a Rubik's Cube.
+- 🖥️ OpenGL-based 3D Rubik's Cube rendering.
 
-1. **Install dependencies:**
-   ```bash
+## 📥 Installation
+Ensure you have Python installed, then install the required dependencies:
 
+```sh
+pip install -r requirements.txt
+```
+
+## ▶️ Usage
+Run the following command to start the application:
+
+```sh
+python Rubik'sCube.py
+```
+
+Ensure that your webcam is enabled for hand gesture detection.    
+##📝**Note:**
+When the program is run, only the video camera window pops open.Test all the gestures are working on it and kill it by pressing the Q key on your keyboard.Then 2 new windows the cube and the video camera will open up where you can play the game.
+This is not the final version.Only the first prototype.
+
+## 🎮 Controls
+### ✋ Right Hand:
+-  **4 fingers closed** - Change the face of the Rubik's Cube on the X plane (horizontally) to **left**
+-  **3 fingers closed** - Change the face of the Rubik's Cube on the X plane (horizontally) to **right**
+-  **Index finger closed** - First row of the cube shifts **left**
+-  **Index and middle finger closed** - First row of the cube shifts **right**
+-  **Middle finger closed** - Second row of the cube shifts **left**
+-  **Middle and ring finger closed** - Second row of the cube shifts **right**
+-  **Ring finger closed** - Third row of the cube shifts **left**
+-  **Ring and pinky finger closed** - Third row of the cube shifts **right**
+
+### 🤚 Left Hand:
+-  **4 fingers closed** - Change the face of the Rubik's Cube on the Y plane (vertically) **up**
+-  **3 fingers closed** - Change the face of the Rubik's Cube on the Y plane (vertically) **down**
+-  **Index finger closed** - First column goes **up**
+-  **Index and middle finger closed** - First column goes **down**
+-  **Middle finger closed** - Second column goes **up**
+-  **Middle and ring finger closed** - Second column goes **down**
+-  **Ring finger closed** - Third column goes **up**
+-  **Ring and pinky finger closed** - Third column goes **down**
+
+## 📦 Dependencies
+The required dependencies are listed in `requirements.txt`, which includes:
+- `mediapipe`
+- `numpy`
+- `opencv-python`
+- `PyOpenGL`
+- `PyOpenGL_accelerate`
+
+## 🚀 Future Improvements
+- 🔍 Enhance gesture recognition accuracy.
+- ✋ Add more intuitive hand gestures for better interaction.
+- 🎨 Improve the rendering performance of the Rubik's Cube.
+
+## 🙌 Acknowledgments
+- 🎯 [MediaPipe](https://mediapipe.dev/) for hand tracking.
+- 🖥️ [PyOpenGL](http://pyopengl.sourceforge.net/) for rendering support.
