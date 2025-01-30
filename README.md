@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Run the following command to start the application:
 
 ```sh
-python Rubik'sCube.py
+python RubiksCube.py
 ```
 
 Ensure that your webcam is enabled for hand gesture detection.
