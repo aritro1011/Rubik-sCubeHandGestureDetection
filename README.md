@@ -27,7 +27,9 @@ python RubiksCube.py
 Ensure that your webcam is enabled for hand gesture detection.
 
 ## 📝 **Note:**
-When the program is run, only the video camera window pops open. Test all the gestures are working on it and kill it by pressing the **Q** key on your keyboard. Then, two new windows—the cube and the video camera—will open up where you can play the game.
+-When the program is run, only the video camera window pops open.  
+-Test all the gestures are working on it and kill it by pressing the **Q** key on your keyboard.  
+-Then, two new windows—the cube and the video camera—will open up where you can play the game.
 
 This is not the final version—only the first prototype.
 
