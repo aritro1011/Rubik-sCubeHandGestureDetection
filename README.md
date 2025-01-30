@@ -9,7 +9,8 @@ This project implements a hand gesture-controlled Rubik's Cube using MediaPipe f
 - 🚀 Real-time hand gesture detection.
 - 🎮 Gesture-based interactions for manipulating a Rubik's Cube.
 - 🖥️ OpenGL-based 3D Rubik's Cube rendering.
-##***DEMO VIDEO**
+  
+##**DEMO VIDEO**
 - https://drive.google.com/file/d/1yXjEVOzyFfGrRUp49i5n7fOELMNBV41Z/view?usp=sharing
 
 ## 📥 Installation
