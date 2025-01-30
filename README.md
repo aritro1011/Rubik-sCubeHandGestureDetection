@@ -5,13 +5,14 @@ This project implements a hand gesture-controlled Rubik's Cube using MediaPipe f
 - **Gestures.py**: Handles hand gesture recognition using MediaPipe.
 - **Rubik'sCube.py**: Implements the Rubik's Cube logic and visualization using OpenGL.
 
+    
+**DEMO VIDEO**
+- https://drive.google.com/file/d/1yXjEVOzyFfGrRUp49i5n7fOELMNBV41Z/view?usp=sharing
+
 ## ✨ Features
 - 🚀 Real-time hand gesture detection.
 - 🎮 Gesture-based interactions for manipulating a Rubik's Cube.
 - 🖥️ OpenGL-based 3D Rubik's Cube rendering.
-  
-**DEMO VIDEO**
-- https://drive.google.com/file/d/1yXjEVOzyFfGrRUp49i5n7fOELMNBV41Z/view?usp=sharing
 
 ## 📥 Installation
 Ensure you have Python installed, then install the required dependencies:
