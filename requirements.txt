@@ -1,6 +1,8 @@
-numpy
-pyopengl
 pyglet
-opencv-python
 mediapipe
 logging
+mediapipe
+numpy
+opencv-python
+PyOpenGL
+PyOpenGL_accelerate
